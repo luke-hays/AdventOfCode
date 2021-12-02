@@ -4,7 +4,7 @@
 #count the number of times a depth measurement increases
 #from the previous measurement (non for the first)
 
-text = "./sample.txt";
+text = "./puzzle.txt";
 depthMeasurements = []
 
 with open(text) as file:
