@@ -2,6 +2,7 @@
 text = "./2021/07/puzzle.txt";
 
 #Changed to use Gauss Summation for effeciency
+#old way used sum(range(1, distance+1))
 def calculateFuelCost(start, end):
     distance = abs(start - end)
     return int((distance*distance + distance)/2)
