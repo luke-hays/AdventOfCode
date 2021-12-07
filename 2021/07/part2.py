@@ -1,9 +1,12 @@
 # text = "./2021/07/sample.txt";
 text = "./2021/07/puzzle.txt";
 
+#Changed to use Gauss Summation for effeciency
 def calculateFuelCost(start, end):
     distance = abs(start - end)
-    return sum(range(1, distance+1))
+    return int((distance*distance + distance)/2)
+
+calculateFuelCost(5, 16)
 
 crabPositions = []
 
