@@ -1,6 +1,9 @@
 # text = "./2021/16/sample.txt";
 text = "./2021/16/puzzle.txt";
 
+# had to get some inspiration on a solution
+# reading from a buffer fixed some of the issues
+
 from io import StringIO
 from math import prod
 
@@ -56,4 +59,4 @@ with open(text) as file:
 solution = parseBinString(StringIO(bstring))
 
 print(f"The first solution is {versionsum}")
-print(f"The second solution is {solution}")  # 660797830937
+print(f"The second solution is {solution}") 
